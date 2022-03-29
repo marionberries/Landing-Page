@@ -1,0 +1,7 @@
+.header, .footer{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
