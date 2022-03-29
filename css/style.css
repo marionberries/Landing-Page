@@ -10,3 +10,8 @@
 .links{
     display: flex;
 }
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
