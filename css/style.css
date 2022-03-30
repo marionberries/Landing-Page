@@ -26,3 +26,9 @@ a{
     display: flex;
     background-color: #1f2937;
 }
+
+.top-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
