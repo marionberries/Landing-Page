@@ -33,6 +33,7 @@ a{
 
 .top-text{
     font-size: 16px;
+    width: 33%;
     border: 1.5px purple solid;
     color: #e5e7eb;
 }
@@ -44,8 +45,53 @@ a{
 }
 
 .top-img{
-    width: 100px;
+    display: flex;
+    width: 33%;
     border: 1.5px purple solid;
     max-height: auto;
-   
+    align-items: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+.mid-info{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    border: 1.5px purple solid;
+}
+
+.info-card{
+    width:10%;
+    margin: 3%;
+    text-align: center;
+}
+
+.info-card-grp{
+    display: flex;
+    justify-content: center;
+}
+
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author{
+    margin-left: 20%;
+    margin-top: 0px;
+    font-size: small;
+}
+
+.quote-text, .author{
+    width: 60%;
 }
