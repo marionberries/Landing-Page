@@ -4,7 +4,7 @@ body{
 
 .header, .footer{
     display: flex;
-    border: 1.5px purple solid;
+    /* border: 1.5px purple solid; */
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
@@ -14,7 +14,7 @@ body{
 
 .links{
     display: flex;
-    border: 1.5px purple solid;
+    /* border: 1.5px purple solid; */
     width:300px;
     justify-content: space-between;
 }
@@ -26,7 +26,7 @@ a{
 
 .top{
     display: flex;
-    border: 1.5px purple solid;    
+    /* border: 1.5px purple solid;     */
     background-color: #1f2937;
     justify-content: center;
 }
@@ -34,7 +34,7 @@ a{
 .top-text{
     font-size: 16px;
     width: 33%;
-    border: 1.5px purple solid;
+    /* border: 1.5px purple solid; */
     color: #e5e7eb;
 }
 
@@ -47,7 +47,7 @@ a{
 .top-img{
     display: flex;
     width: 33%;
-    border: 1.5px purple solid;
+    /* border: 1.5px purple solid; */
     max-height: auto;
     align-items: center;
 }
@@ -60,7 +60,7 @@ img{
     display:flex;
     flex-direction:column;
     align-items: center;
-    border: 1.5px purple solid;
+    /* border: 1.5px purple solid; */
 }
 
 .info-card{
@@ -87,11 +87,11 @@ img{
 }
 
 .author{
-    margin-left: 20%;
+    text-align: right;
     margin-top: 0px;
     font-size: small;
 }
 
-.quote-text, .author{
+.quote-txt, .author{
     width: 60%;
 }
