@@ -93,5 +93,63 @@ img{
 }
 
 .quote-txt, .author{
-    width: 60%;
+    width: 50%;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+}
+
+.signup-box{
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+
+}
+.signup-txt{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%
+    /* margin-top: 5%;
+    margin-bottom: 5%; */
+}
+
+.button-container{
+    align-items: center;
+    /* margin-left: 10%; */   
+}
+
+.signup-top, .signup-bottom{
+    color: white;
+    margin-top: 0;
+    margin-bottom:0;
+}
+
+.signup-top{
+    font-weight: bold;
+}
+
+.signup-bottom{
+    font-size:small;
+}
+
+
+
+button{
+    width: 100px;
+    height: 25px;
+    background-color: #3882f6;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    border:0;
+}
+
+.signup button{
+    border: solid white;
 }
