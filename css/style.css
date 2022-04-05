@@ -7,7 +7,8 @@ body{
     display: flex;
     background-color: #1f2937;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 150px;
 }
 
 .header{
@@ -27,6 +28,7 @@ body{
 .footer{
     color: #f9faf8;
     font-size: small;
+    justify-content: center;
 }
 
 a{
@@ -36,17 +38,16 @@ a{
 
 .top{
     display: flex;
-    /* border: 1.5px purple solid;     */
     background-color: #1f2937;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 20px 150px 20px 150px;
 }
 
 .top-text{
     font-size: 16px;
     width: 33%;
-    /* border: 1.5px purple solid; */
     color: #e5e7eb;
-    margin: auto 5% 5%;
+    margin: auto 5% 5% 5% 0;
 }
 
 #title{
@@ -57,12 +58,14 @@ a{
 
 .top-img{
     display: flex;
-    width: 33%;
-    /* border: 1.5px purple solid; */
+    width: 50%;
     max-height: auto;
     align-items: center;
 }
 
+.top-img > img{
+        border-radius: 50%;
+}
 img{
     max-width: 100%;
 }
@@ -71,7 +74,7 @@ img{
     display:flex;
     flex-direction:column;
     align-items: center;
-    /* border: 1.5px purple solid; */
+    padding: 0px 150px;
 }
 
 .mid-text{
@@ -80,14 +83,14 @@ img{
     text-align: center;
 }
 .info-card{
-    width:10%;
+    width:15%;
     margin: 3%;
     text-align: center;
 }
 
 .info-card-grp{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 
@@ -100,6 +103,7 @@ img{
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    padding: 0px 200px;
 }
 
 .author{
@@ -109,7 +113,7 @@ img{
 }
 
 .quote-txt, .author{
-    width: 50%;
+    /* width: 50%; */
 }
 
 .signup{
@@ -121,10 +125,10 @@ img{
     display: flex;
     align-items: center;
     background-color: #3882f6;
-    margin: 2%;
+    margin: 2% 0;
     padding: 2%;
     border-radius: 10px;
-
+    width: 724.8px;
 }
 .signup-txt{
     display: flex;
@@ -153,8 +157,6 @@ img{
 .signup-bottom{
     font-size:small;
 }
-
-
 
 button{
     width: 100px;
